@@ -386,7 +386,7 @@ left: 10px;
     left: 0%;
 }*/
 nav{
-    padding: 0px 2px 0px 20px;
+    padding: 0px 0px 0px 9px;
     height: 40px;
    }
    nav .logo{
@@ -395,7 +395,7 @@ nav{
     
    }
 nav ul{
-      top:-3%;
+      top:-20%;
    }
    nav ul li{
  
@@ -405,7 +405,7 @@ nav ul{
      font-size: 10px;
      font-weight: bold;
      letter-spacing: 0.2px;
-     padding: 8px 10px;
+     padding: 5px 8px;
     }
 #about{
     display: block;
@@ -443,7 +443,7 @@ nav ul{
     display: flex;
     flex-direction: row;
     transform: translate(-50%, -50%);
-    top:550%;
+    top:650%;
     left: 35%;
 }
 .social-menu ul li{
@@ -468,11 +468,11 @@ nav ul{
     width: 15%;
 }
 .gallery img{
-    width:80px;
-    height: 100px;
+    width:20px;
+    height: 80px;
 }
 .box{
-    font-size: 5px;
+    font-size: 2px;
     width: 100px;
     height: 200px;
 }
@@ -482,7 +482,7 @@ nav ul{
     background-color: transparent;
 }
 .box .heading{
-    padding:9px;
+    padding:5px;
 }
 /*#home img{
     height: 700px;
