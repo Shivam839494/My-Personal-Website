@@ -373,7 +373,7 @@ left: 10px;
 .social-menu ul li:nth-child(5) a:hover{
     background-color:red;
 }
-@media(max-width:500px){
+@media(max-width:768px){
   /*  nav .menu-btn i{
         display: block;
     }
