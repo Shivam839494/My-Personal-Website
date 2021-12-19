@@ -25,7 +25,7 @@ html{
   }
   nav ul{  
      float: right;
-      top: 0%;
+      top: 2%;
       list-style: none;
       display: flex;
 
@@ -394,14 +394,17 @@ nav{
      font-weight: 300;
     
    }
+nav ul{
+      top:-3%;
+   }
    nav ul li{
  
-     margin: 0px 0px;
+     margin: -3px -3px;
    }
    nav ul li a{
      font-size: 10px;
-     font-weight: 200;
-     letter-spacing: 0.5px;
+     font-weight: bold;
+     letter-spacing: 0.2px;
      padding: 8px 10px;
     }
 #about{
@@ -440,7 +443,7 @@ nav{
     display: flex;
     flex-direction: row;
     transform: translate(-50%, -50%);
-    top:490%;
+    top:550%;
     left: 35%;
 }
 .social-menu ul li{
@@ -448,8 +451,8 @@ nav{
 
 }
 .social-menu ul li .fa{
-    font-size: 10px;
-    line-height:20px;
+    font-size: 8px;
+    line-height:40px;
 }
 .social-menu ul li a{
     width:20px;
@@ -465,11 +468,11 @@ nav{
     width: 15%;
 }
 .gallery img{
-    width:150px;
+    width:80px;
     height: 100px;
 }
 .box{
-    font-size: 10px;
+    font-size: 5px;
     width: 100px;
     height: 200px;
 }
@@ -479,7 +482,7 @@ nav{
     background-color: transparent;
 }
 .box .heading{
-    padding:12px;
+    padding:9px;
 }
 /*#home img{
     height: 700px;
@@ -490,7 +493,7 @@ nav{
     display: block;
     text-align: center;
     align-items: center;
-    top: 55%;
+    top: 70%;
     right: 8%;
     font-size: 45px;
 }
