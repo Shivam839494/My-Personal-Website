@@ -53,14 +53,14 @@ html{
     box-shadow: 0 0 8px white;
    
   }
- /*nav .menu-btn i{
+ nav .menu-btn i{
       color: #fff;
       background-color: tomato;
       font-size: 22px;
       cursor: pointer;
       display: none;
-  }*/
- /* nav .menu i{
+  }
+ nav .menu i{
       color: #fff;
       font-size: 22px;
       cursor: pointer;
@@ -77,7 +77,7 @@ html{
   }
   #check{
     display: none;
-  }*/
+  }
   
 /*nav{
     display: flex;
@@ -374,17 +374,17 @@ left: 10px;
     background-color:red;
 }
 @media(max-width:768px){
-  /*  nav .menu-btn i{
+   nav .menu-btn i{
         display: block;
     }
     #click:checked ~ .menu-btn i:before{
         content: "\f00d";
-    }*/
+    }
 
 
-/*#check:checked~ul{
+#check:checked~ul{
     left: 0%;
-}*/
+}
 nav{
     padding: 0px 0px 0px 9px;
     height: 40px;
