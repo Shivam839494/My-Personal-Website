@@ -374,7 +374,7 @@ left: 10px;
     background-color:red;
 }
 @media(max-width:768px){
-   nav .menu-btn i{
+   /*nav .menu-btn i{
         display: block;
     }
     #click:checked ~ .menu-btn i:before{
@@ -384,28 +384,25 @@ left: 10px;
 
 #check:checked~ul{
     left: 0%;
-}
+}*/
 nav{
-    padding: 0px 0px 0px 9px;
-    height: 40px;
+    padding: 0px 2px 0px 15px;
+    height: 30px;
    }
    nav .logo{
      font-size: 15px;
      font-weight: 300;
     
    }
-nav ul{
-      top:-20%;
-   }
    nav ul li{
  
-     margin: -3px -3px;
+     margin: 0px 0px;
    }
    nav ul li a{
      font-size: 10px;
-     font-weight: bold;
-     letter-spacing: 0.2px;
-     padding: 5px 8px;
+     font-weight: 200;
+     letter-spacing: 0.3px;
+     padding: 8px 10px;
     }
 #about{
     display: block;
@@ -418,7 +415,7 @@ nav ul{
 }
 #pic img{
     width: 200px;
-    height: 200px;
+    height: 210px;
   
 }
 #intro{  
@@ -443,20 +440,20 @@ nav ul{
     display: flex;
     flex-direction: row;
     transform: translate(-50%, -50%);
-    top:650%;
-    left: 35%;
+    top:246%;
+    left: 46%;
 }
 .social-menu ul li{
     margin:6px 9px;
 
 }
 .social-menu ul li .fa{
-    font-size: 8px;
-    line-height:40px;
+    font-size: 15px;
+    line-height:35px;
 }
 .social-menu ul li a{
-    width:20px;
-    height:20px;
+    width:30px;
+    height:30px;
 }
 .input{
     width: 50%;
@@ -468,13 +465,13 @@ nav ul{
     width: 15%;
 }
 .gallery img{
-    width:20px;
-    height: 80px;
+    width:300px;
+    height: 180px;
 }
 .box{
-    font-size: 2px;
-    width: 100px;
-    height: 200px;
+    font-size: 13px;
+    width: 280px;
+    height: 350px;
 }
 .box img{
     width: 60px;
@@ -482,7 +479,7 @@ nav ul{
     background-color: transparent;
 }
 .box .heading{
-    padding:5px;
+    padding:15px;
 }
 /*#home img{
     height: 700px;
@@ -493,12 +490,12 @@ nav ul{
     display: block;
     text-align: center;
     align-items: center;
-    top: 70%;
-    right: 8%;
-    font-size: 45px;
+    top: 25%;
+    right: 15%;
+    font-size: 50px;
 }
 .h2{
-    font-size: 1.3rem;  
-    margin: 5px 0px;
+    font-size: 1.5rem;  
+    margin: 7px 0px;
 }
 }
