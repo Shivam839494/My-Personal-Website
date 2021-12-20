@@ -427,7 +427,7 @@ nav{
     font-size: 1.4rem;
     align-items: center;
     justify-content: center;
-   margin-bottom: 5px;
+    padding:5px
 }
 .headings{
     font-size: 2rem;
@@ -465,13 +465,13 @@ nav{
     width: 18%;
 }
 .gallery img{
-    width:250px;
-    height: 130px;
+    width:200px;
+    height: 100px;
 }
 .box{
-    font-size: 13px;
-    width: 200px;
-    height: 270px;
+    font-size: 10px;
+    width: 100px;
+    height: 170px;
 }
 .box img{
     width: 60px;
@@ -479,7 +479,7 @@ nav{
     background-color: transparent;
 }
 .box .heading{
-    padding:15px;
+    padding:10px;
 }
 /*#home img{
     height: 700px;
@@ -496,6 +496,6 @@ nav{
 }
 .h2{
     font-size: 1.5rem;  
-    margin: 5px 0px;
+    margin: 7px 0px;
 }
 }
