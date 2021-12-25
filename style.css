@@ -387,7 +387,7 @@ left: 10px;
 }*/
 nav{
     display:flex;
-    padding: 0px 2px 0px 15px;
+    padding: 0px 2px 5px 15px;
     height: 30px;
    }
    nav .logo{
@@ -398,12 +398,14 @@ nav{
    }
    nav ul{  
       display:flex;
+      top:0px;
       margin-top:0;
       padding-top:0;
 
   }
    nav ul li{
      display: flex;
+     top:0px;
      margin: 0 0;
    }
    nav ul li a{
@@ -488,7 +490,8 @@ nav{
     background-color: transparent;
 }
 .box .heading{
-    padding:5px;
+    padding:1px;
+    font-size:0.5rem;
 }
 /*#home img{
     height: 700px;
@@ -499,7 +502,7 @@ nav{
     display: block;
     text-align: center;
     align-items: center;
-    top: 100px;
+    top: 300px;
     right: 15%;
     font-size: 50px;
 }
