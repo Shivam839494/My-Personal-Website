@@ -396,16 +396,18 @@ nav{
     
    }
    nav ul{  
+      display:flex;
       top: -5%;
       margin-top:0;
       padding-top:0;
 
   }
    nav ul li{
- 
+     display: flex;
      margin: 0 0;
    }
    nav ul li a{
+     display: flex;
      font-size: 10px;
      font-weight: 200;
      letter-spacing: 0.3px;
