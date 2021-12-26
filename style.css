@@ -23,7 +23,6 @@ html{
    
   }
   nav ul{  
-     float: right;
       list-style: none;
       display: flex;
 
@@ -384,16 +383,18 @@ nav{
     height: 30px;
    }
    nav .logo{
+    line-height:20px;
      font-size: 15px;
      font-weight: 300;
     
    }
    nav ul{  
+       line-height:20px;
       display:flex;
 
   }
    nav ul li{
-     display: flex;
+     line-height:20px;
      margin:0px 3px;
    }
    nav ul li a{
@@ -464,20 +465,20 @@ nav{
     height: 80px;
 }
 .box{
-    font-size: 5px;
-    width: 130px;
-    height: 190px;
+    font-size: 10px;
+    width: 135px;
+    height: 200px;
     margin:2px;
     padding:4px;
 }
 .box img{
     width: 50px;
-    height: 80px;
+    height: 55px;
     background-color: transparent;
 }
 .box .heading{
     padding:1px;
-    font-size:0.7rem;
+    font-size:0.9rem;
 }
 /*#home img{
     height: 700px;
