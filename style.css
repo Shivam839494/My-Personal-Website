@@ -319,7 +319,6 @@ left: 10px;
 }
 .social-menu ul{
     display:flex;
-    background-color: black;
     align-items: center;
     justify-content: center;
 }
