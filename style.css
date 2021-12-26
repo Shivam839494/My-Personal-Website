@@ -319,6 +319,7 @@ left: 10px;
     box-shadow: 0 0 10px white;
 }
 .social-menu ul{
+    display:flex;
     background-color: black;
     align-items: center;
     justify-content: center;
@@ -438,7 +439,7 @@ nav{
     justify-content: center;
 }
 .social-menu ul{
-    display: block;
+    
    
 }
 .social-menu ul li{
