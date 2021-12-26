@@ -14,7 +14,6 @@ html{
     background:rgba(0,0,0,.5);
     position: sticky;
    height: 65px;
-   width: 100%;
     top: 0;
   }
   nav .logo{
@@ -396,14 +395,12 @@ nav{
   }
    nav ul li{
      display: flex;
-     margin:0px 0px;
+     margin:0px 3px;
    }
    nav ul li a{
-     display: flex;
      font-size: 10px;
-     font-weight: 200;
      letter-spacing: 0.3px;
-     padding: 4px 0px;
+     padding: 1px 3px;
     }
 #about{
     display: block;
@@ -448,11 +445,11 @@ nav{
 }
 .social-menu ul li .fa{
     font-size: 10px;
-    line-height:35px;
+    line-height:30px;
 }
 .social-menu ul li a{
     width:20px;
-    height:25px;
+    height:20px;
 }
 .input{
     width: 55%;
@@ -464,24 +461,24 @@ nav{
     width: 17%;
 }
 .gallery img{
-    width:100px;
+    width:150px;
     height: 80px;
 }
 .box{
-    font-size: 10px;
-    width: 100px;
-    height: 140px;
-    margin:4px;
+    font-size: 5px;
+    width: 130px;
+    height: 190px;
+    margin:2px;
     padding:4px;
 }
 .box img{
-    width: 30px;
-    height: 60px;
+    width: 50px;
+    height: 80px;
     background-color: transparent;
 }
 .box .heading{
     padding:1px;
-    font-size:0.3rem;
+    font-size:0.7rem;
 }
 /*#home img{
     height: 700px;
@@ -499,5 +496,6 @@ nav{
 .h2{
     font-size: 1.5rem;  
     margin: 7px 0px;
+    
 }
 }
