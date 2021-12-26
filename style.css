@@ -25,7 +25,6 @@ html{
   }
   nav ul{  
      float: right;
-      top: 2%;
       list-style: none;
       display: flex;
 
@@ -53,7 +52,7 @@ html{
     box-shadow: 0 0 8px white;
    
   }
- nav .menu-btn i{
+/* nav .menu-btn i{
       color: #fff;
       background-color: tomato;
       font-size: 22px;
@@ -77,7 +76,7 @@ html{
   }
   #check{
     display: none;
-  }
+  }*/
   
 /*nav{
     display: flex;
@@ -133,11 +132,9 @@ nav ul li a:hover{
     background-image: /*linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),*/url(home.png);
     background-position: center;
     background-size: cover;
-    position: relative;
     height: 700px;
    width: 100%;
    z-index: -1;
-    opacity: .8;
   
 }
 .main{
@@ -154,7 +151,7 @@ nav ul li a:hover{
     font-size: 2rem;  
     margin: 7px 0px;
 }
-.main .heads{
+.heads{
 margin: 5px 0px;
 font-family: century;
 font-size: 3rem;
@@ -322,12 +319,9 @@ left: 10px;
     box-shadow: 0 0 10px white;
 }
 .social-menu ul{
-    position:absolute;
-    right:-5%;
-    padding:0px;
-    margin:60px;
-    transform: translate(-50%, -50%);
-    top:480%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
 }
 .social-menu ul li{
     list-style:none;
@@ -387,26 +381,21 @@ left: 10px;
 }*/
 nav{
     display:flex;
-    padding: 0px 2px 5px 15px;
+    padding: 0px 2px 0px 15px;
     height: 30px;
    }
    nav .logo{
      font-size: 15px;
      font-weight: 300;
-     width:10px;
     
    }
    nav ul{  
       display:flex;
-      top:0px;
-      margin-top:0;
-      padding-top:0;
 
   }
    nav ul li{
      display: flex;
-     top:0px;
-     margin: 0 0;
+     margin:0px 0px;
    }
    nav ul li a{
      display: flex;
@@ -450,8 +439,6 @@ nav{
 }
 .social-menu ul{
     display: block;
-    transform: translate(-50%, -50%);
-    top:400%;
    
 }
 .social-menu ul li{
@@ -481,17 +468,19 @@ nav{
 }
 .box{
     font-size: 10px;
-    width: 80px;
-    height: 120px;
+    width: 100px;
+    height: 140px;
+    margin:4px;
+    padding:4px;
 }
 .box img{
-    width: 25px;
-    height: 50px;
+    width: 30px;
+    height: 60px;
     background-color: transparent;
 }
 .box .heading{
     padding:1px;
-    font-size:0.5rem;
+    font-size:0.3rem;
 }
 /*#home img{
     height: 700px;
