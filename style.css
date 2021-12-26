@@ -445,7 +445,7 @@ nav{
 }
 .social-menu ul li .fa{
     font-size: 10px;
-    line-height:30px;
+    line-height:25px;
 }
 .social-menu ul li a{
     width:20px;
@@ -461,8 +461,8 @@ nav{
     width: 17%;
 }
 .gallery img{
-    width:150px;
-    height: 80px;
+    width:125px;
+    height: 90px;
 }
 .box{
     font-size: 10px;
