@@ -379,7 +379,7 @@ left: 10px;
 }*/
 nav{
     display:flex;
-    padding: 0px 2px 0px 7px;
+    padding: 0px 2px 0px 5px;
     height: 30px;
    }
    nav .logo{
@@ -400,17 +400,9 @@ nav{
    nav ul li a{
      font-size: 10px;
      border-radius: 2px;
-     letter-spacing: 0.3px;
+     letter-spacing: 0.2px;
      padding: 3px 4px;
     }
-   #home::before{ 
-    content:"";
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: linear-gradient(rgba(3,5,10,0.3),rgba(3,5,10,0.3)),url(i5.jpeg);
-    background-position: center;
-    background-size: cover;
 #about{
     display: block;
     text-align: center;
