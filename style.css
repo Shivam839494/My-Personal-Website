@@ -403,6 +403,14 @@ nav{
      letter-spacing: 0.3px;
      padding: 3px 4px;
     }
+   #home::before{ 
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(rgba(3,5,10,0.3),rgba(3,5,10,0.3)),url(i5.jpeg);
+    background-position: center;
+    background-size: cover;
 #about{
     display: block;
     text-align: center;
