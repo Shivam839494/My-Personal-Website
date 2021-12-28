@@ -379,7 +379,7 @@ left: 10px;
 }*/
 nav{
     display:flex;
-    padding: 0px 2px 0px 10px;
+    padding: 0px 2px 0px 7px;
     height: 30px;
    }
    nav .logo{
@@ -390,18 +390,18 @@ nav{
    }
    nav ul{  
        line-height:20px;
-        float: right;
+    
       display:flex;
 
   }
    nav ul li{
-     margin:0px 2px;
+     margin:0px 1px;
    }
    nav ul li a{
      font-size: 10px;
      border-radius: 2px;
      letter-spacing: 0.3px;
-     padding: 3px 5px;
+     padding: 3px 4px;
     }
 #about{
     display: block;
