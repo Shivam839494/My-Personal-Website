@@ -377,7 +377,7 @@ left: 10px;
 #check:checked~ul{
     left: 0%;
 }*/
-     nav{
+     /*nav{
    display: flex;
    align-items: center;
    justify-content: center;
@@ -409,7 +409,7 @@ left: 10px;
     border-radius: 2px;
     transition: all 0.3s ease;
    
-  }
+  }*/
 #about{
     display: block;
     text-align: center;
